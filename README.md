@@ -1,0 +1,1 @@
+Learning SAP ABAP RAP.
