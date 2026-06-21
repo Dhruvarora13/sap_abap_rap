@@ -1,0 +1,47 @@
+@Metadata.layer: #CORE
+annotate entity ZC_SALES_ITEM1
+    with 
+{
+    @EndUserText.label: 'Sales Item UUID'
+    @UI.lineItem: [{ position: 10 }]
+    Salesitemuuid;
+    @EndUserText.label: 'Sales Order UUID'
+    @UI.lineItem: [{ position: 30 }]
+    Salesorderuuid;
+    @EndUserText.label: 'Sales Order Item'
+    @UI.selectionField: [{position: 20}]
+    Salesorderitem;
+    @EndUserText.label: 'Slaes Order Item Category'
+    @UI.lineItem: [{ position: 40 }]
+    Salesorderitemcategory;
+    @EndUserText.label: 'Slaes Order Item Text'
+    @UI.lineItem: [{ position: 50 }]
+    Salesorderitemtext;
+    @EndUserText.label: 'Material'
+    @UI.lineItem: [{ position: 60 }]
+    Material;
+    @EndUserText.label: 'Plant'
+    @UI.lineItem: [{ position: 70 }]
+    Plant;
+    @EndUserText.label: 'Order Quantity'
+    @UI.lineItem: [{ position: 80 }]
+    Orderquantity;
+    @EndUserText.label: 'Order Quantity Unit'
+    @UI.lineItem: [{ position: 90 }]
+    Orderquantityunit;
+    @EndUserText.label: 'Net Amount'
+    @UI.lineItem: [{ position: 100 }]
+    Netamount;
+    @UI.hidden: true
+    Transactioncurrency;
+    @UI.hidden: true
+    Createdbyuser;
+    @UI.hidden: true
+    Createdby;
+    @UI.hidden: true
+    Createdat;
+    @UI.hidden: true
+    Lastchangedby;
+    @UI.hidden: true
+    Lastchangedat;    
+}
